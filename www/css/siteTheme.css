@@ -1,0 +1,128 @@
+/*
+General Settings + Header
+*/
+body{
+    min-width: 1024px;
+    background: url(../images/backgrounds/microprocessor.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#mainHeader{
+    float: left;
+    display: block;
+    width: 90%;
+    background-color: darkblue;
+    background: url("http://assets.nydailynews.com/polopoly_fs/1.1542852!/img/httpImage/image.jpg_gen/derivatives/article_970/178891861.jpg");
+    background-size: 90% 100%;
+    padding: 10px;
+    text-align: right;
+    box-shadow: inset 0 1px 0 cyan,inset 0 -1px 0 cyan, 0 0 15px cyan;
+}
+
+.text{
+    color:cyan;
+}
+
+.logo{
+    float: left;
+    width:10%;
+}
+
+/*
+Top Navigation bar settings
+*/
+ul{
+    list-style: none;
+}
+
+.NavBar{
+    clear: left;
+}
+
+.NavBar ul li{
+    float: left;
+    width: 25%;
+}
+
+.rootNav{
+    display:block;
+    color:cyan;
+    background-color: gray;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: inset 0 1px 0 cyan,inset 0 -1px 0 cyan, inset 1px 0 0 cyan, inset -1px 0 0 cyan, 0 0 15px cyan;
+}
+
+.navSelection{
+    float: right;
+    width: 50%;
+    display:none;
+    color:cyan;
+    background: rgba(128,128,128,0.75);
+    box-shadow: inset 0 1px 0 cyan,inset 0 -1px 0 cyan, 0 0 15px cyan;
+}
+
+.navSelection li{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    clear: left;
+}
+/*
+Columns
+*/
+
+.column{
+    float: left;
+    display: block;
+    background: rgba(128,128,128,0.4);
+    box-shadow: inset 0 1px 0 rgba(0,255,255,0.4),inset 0 -1px 0 rgba(0,255,255,0.4), 0 0 15px rgba(0,255,255,0.4);
+}
+
+.prof{
+    display: block; 
+    background-color: gray; 
+    float:left; 
+    width:100%;
+    box-shadow: inset 0 1px 0 cyan,inset 0 -1px 0 cyan, 0 0 15px cyan;
+}
+
+/*
+Carousel
+*/
+.carousel{
+    position:relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.carousel-inner{
+    display: block; 
+    width:100%;
+    overflow: hidden;
+}
+.carousel-inner img{
+    width: 100%;
+}
+
+
+/*
+Bottom Bar
+*/
+
+#BottomBar{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    height: 25px;
+    width: 100%;
+    
+    background-color: gray;
+    box-shadow: inset 0 1px 0 cyan,inset 0 -1px 0 cyan, 0 0 15px cyan;  
+    
+    z-index: 100;
+}
